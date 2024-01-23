@@ -13,13 +13,13 @@ body {
 }
 
 .header {
-    content: "";
-    background: url(images/netflix-bg.jpg) no-repeat center center/cover;
-    position: absolute;
-    height: 100%;
     width: 100%;
-    opacity: 0.3;
-    z-index: -1;
+    height: 100vh;
+    background-image: url(C:\Users\jsidd\OneDrive\Documents\Netflix\header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
 }
 
 nav {
@@ -106,7 +106,7 @@ nav button {
     background-color: #db0001;
     border: none;
     outline: none;
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
     cursor: pointer;
     padding: 15px 30px;
